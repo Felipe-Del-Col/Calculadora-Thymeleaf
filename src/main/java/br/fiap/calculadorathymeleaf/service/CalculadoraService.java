@@ -16,7 +16,7 @@ public class CalculadoraService {
 
     private double dividir (int a, int b) {
         if (b == 0) {
-            throw new IllegalArgumentException("Não Existe divisão por zero");
+            throw new IllegalArgumentException("Não existe divisão por zero");
         }
         return (double) a / b;
     }
